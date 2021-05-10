@@ -6,7 +6,8 @@ detailing further instructions on how to use angular.
 The frontend is included in the angularclient folder and the backend in the demo folder. 
 Both are pre-compiled, but the source is also present.
 
-In order to run the backend, run the executable .jar file in the /demo/target folder called `backend.jar`.
+In order to run the backend, run the executable .jar file in the /demo/target folder called `backend.jar`. Note that the backend is compiled for java version 55 (Java 11) so that 
+is required to run the backend. Execute with terminal command `java -jar backend.jar` or run as an executable.
 The backend runs on port 8092 by default so please ensure this is free.
 To build the backend, run the Maven command `mvnw clean install` from the terminal in the /demo directory.
 
