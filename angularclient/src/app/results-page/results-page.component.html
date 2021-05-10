@@ -1,0 +1,24 @@
+<div class="card my-5">
+
+  <div class="card-body">
+  <h3> Below you will find the results of your answered questions! Please feel free to try again.</h3>
+  <table class="table table-bordered table-striped">
+  <thead>
+  <tr>
+  <td> Question ID </td>
+  <td> Question </td>
+  <td> Your Answer </td>
+  <td> Your Answer Turned Out To Be: </td>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let ans of resultKeys">
+  <td> {{ans}} </td>
+  <td> {{questions.get(ans)}} </td>
+  <td> {{answers.get(ans)}} </td>
+  <td>  {{results.get(ans)}}</td>
+  </tr>
+  </tbody>
+  </table>
+  </div>
+</div>
