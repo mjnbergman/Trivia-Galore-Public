@@ -8,7 +8,7 @@ Both are pre-compiled, but the source is also present.
 
 In order to run the backend, run the executable .jar file in the /demo/target folder called `backend.jar`.
 The backend runs on port 8092 by default so please ensure this is free.
-To build the backend, run the Maven command `mvn clean install` from the terminal in the /demo directory.
+To build the backend, run the Maven command `mvnw clean install` from the terminal in the /demo directory.
 
 In order to run the frontend, mount the contents of the /angularclient/dist folder on a local webserver, such as an Apache webserver. Make sure 
 the webserver is set to port 4200, as the backend is specifically configured to accept connections from localhost:4200.
